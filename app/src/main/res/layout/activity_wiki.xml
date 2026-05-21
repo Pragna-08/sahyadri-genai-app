@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Educational Wiki"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_gravity="center" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn Why Water Protection Matters"
+            android:textSize="16sp"
+            android:textColor="#1565C0"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center" />
+
+        <!-- Section 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why Streams Matter"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Streams and sacred springs in the Western Ghats provide drinking water for millions of people. They support agriculture, biodiversity, forests, and the complete ecosystem balance of villages and nearby towns."
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Section 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why Water Pollution is Dangerous"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Polluted water spreads diseases like typhoid, cholera, and skin infections. It damages crops, kills fish, harms animals, and affects entire villages downstream before people even realize the problem."
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Section 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Community Role"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Citizen observations create an early warning system. Local people become the first protectors of water health by reporting clarity, flow, smell, and visible pollution in their streams."
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Section 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How Sahyadri-Siri Helps"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sahyadri-Siri collects community reports and creates a live Water Health Map. This helps detect pollution early, improves water safety, and protects natural resources across the Western Ghats."
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Bottom Space -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+</ScrollView>

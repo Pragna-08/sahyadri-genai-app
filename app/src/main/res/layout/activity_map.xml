@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health Map"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Community Water Quality Status"
+            android:textSize="16sp"
+            android:textColor="#1565C0"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"/>
+
+        <!-- Clean Water Card -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔵 Stream A — Clean Water Zone\nStatus: Good Clarity | High Flow"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:layout_marginTop="30dp"
+            android:background="#BBDEFB"/>
+
+        <!-- Polluted Water Card -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🟤 Stream B — Pollution Alert Zone\nStatus: Low Clarity | Low Flow"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:layout_marginTop="20dp"
+            android:background="#D7CCC8"/>
+
+        <!-- Moderate Zone -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🟡 Sacred Spring Zone\nStatus: Medium Clarity | Moderate Flow"
+            android:textSize="18sp"
+            android:padding="18dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFF9C4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This map updates in real-time based on citizen reports submitted by local communities."
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
